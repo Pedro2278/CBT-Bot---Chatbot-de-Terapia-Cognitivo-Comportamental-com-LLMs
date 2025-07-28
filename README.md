@@ -1,21 +1,16 @@
 CBT Bot — Chatbot de Terapia Cognitivo-Comportamental com LLMs
 📋 Descrição do Projeto
 Este projeto desenvolve um chatbot terapêutico automatizado (CBT Bot) utilizando Modelos de Linguagem de Grande Porte (LLMs) da OpenAI para auxiliar usuários a lidarem com emoções e pensamentos negativos com base em princípios da Terapia Cognitivo-Comportamental (TCC).
-
 O chatbot é treinado e testado utilizando a base de dados pública do Kaggle Human and LLM Mental Health Conversations, que contém diálogos reais e gerados por LLMs sobre saúde mental.
 
 🎯 Objetivo
 Criar um assistente virtual empático que:
-
 - Identifique distorções cognitivas comuns nos textos do usuário;
-
 - Responda com mensagens baseadas em regras da TCC para reestruturar pensamentos negativos;
-
 - Use LLMs da OpenAI para gerar respostas mais naturais e variadas quando o padrão de distorção não for detectado;
-
 - Permita um atendimento automatizado inicial para pessoas que buscam apoio emocional.
 
-  🧩 Estrutura do Projeto
+🧩 Estrutura do Projeto
 - dataset.csv: base de dados original do Kaggle com diálogos de saúde mental.
 - Script para converter o CSV em JSONL, formato compatível com fine-tuning OpenAI.
 - Implementação do chatbot com:
@@ -26,7 +21,6 @@ Criar um assistente virtual empático que:
 - Visualizações exploratórias (gráficos de frequência, polaridade, tamanho das mensagens);
 - Código para interagir com o chatbot via terminal.
 
-
 🛠 Tecnologias e Bibliotecas Utilizadas
 - Python 3.x
 - Pandas (manipulação de dados)
@@ -35,7 +29,7 @@ Criar um assistente virtual empático que:
 - OpenAI Python SDK (integração com API GPT-4o-mini)
 - Regex (para detecção de distorções cognitivas)
 
-  🚀 Como Rodar
+🚀 Como Rodar
 Clone este repositório ou baixe os arquivos.
 Instale as dependências:
 pip install pandas matplotlib textblob openai
@@ -61,8 +55,6 @@ O chatbot combina regras baseadas em TCC com respostas geradas por LLMs para mai
 - O chatbot não substitui acompanhamento psicológico profissional.
 - Possui respostas limitadas às regras programadas e qualidade das respostas da API.
 - Requer conexão e créditos válidos para uso da API OpenAI.
-
-
 
 📚 Referências
 - Base de dados Kaggle - Human and LLM Mental Health Conversations
